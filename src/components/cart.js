@@ -20,7 +20,7 @@ class Cart extends Component {
     return (
       <div className="Cart">
         <Shelf addItem={this.props.action.addToCart} />
-        <h1>Shopping Bag</h1>
+        <h2>Your items in cart:</h2>
         <ol>{cartItems}</ol>
       </div>
     );

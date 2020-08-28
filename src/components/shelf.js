@@ -25,7 +25,8 @@ class Shelf extends Component {
     });
     return (
       <div>
-        <h2>Items in Shelf</h2>
+        <h1>Welcome to Auchan</h1>
+        <h4>Shop in our extensive warehouse:</h4>
         <ul>{shelfItems}</ul>
       </div>
     );
